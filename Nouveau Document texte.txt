@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Djiby Graphisme | Graphiste & Photographe</title>
+  <meta name="description" content="Graphiste et photographe professionnel : affiches, logos, portraits, retouches photo, design publicitaire.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DJIBY GRAPHISME</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Graphiste & Photographe Professionnel</h2>
+    <p>Je crée vos visuels, portraits et designs uniques pour donner vie à vos idées.</p>
+    <a href="#contact" class="btn">Me contacter</a>
+  </section>
+
+  <section id="services">
+    <h3>Mes services</h3>
+    <ul>
+      <li>🎨 Création d'affiches & logos</li>
+      <li>📸 Séances photo & retouches</li>
+      <li>🖋️ Design de cartes, flyers & bannières</li>
+      <li>👕 Conception de t-shirts & maillots</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Projet 1">
+      <img src="images/photo2.jpg" alt="Projet 2">
+      <img src="images/photo3.jpg" alt="Projet 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>📧 Email : <a href="mailto:djibygraphisme@gmail.com">djibygraphisme@gmail.com</a></p>
+    <p>📱 WhatsApp : +221 77 000 00 00</p>
+    <p>📍 Basé à Dakar, Sénégal</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Djiby Graphisme — Tous droits réservés</p>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
